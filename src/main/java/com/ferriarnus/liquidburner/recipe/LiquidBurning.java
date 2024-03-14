@@ -2,7 +2,7 @@ package com.ferriarnus.liquidburner.recipe;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import io.github.fabricators_of_create.porting_lib.util.FluidStack;
+import io.github.fabricators_of_create.porting_lib.fluids.FluidStack;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -83,7 +83,7 @@ public class LiquidBurning implements Recipe<FluidContainer> {
     public static class Serializer implements RecipeSerializer<LiquidBurning> {
 
         public Serializer() {
-            
+
         }
 
         @Override

@@ -1,7 +1,7 @@
 package com.ferriarnus.liquidburner;
 
 import com.simibubi.create.foundation.fluid.SmartFluidTank;
-import io.github.fabricators_of_create.porting_lib.util.FluidStack;
+import io.github.fabricators_of_create.porting_lib.fluids.FluidStack;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;
